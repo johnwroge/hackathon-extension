@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "My Extension",
+  "name": "Productivity Extension",
   "version": "1.0",
   "description": "A plain text description",
   "icons": {
@@ -22,5 +22,9 @@
   ],
   "background": {
     "service_worker": "background.js"
-  }
+  },
+
+  "icons": {
+    "128": "./scripts/Lobster2.png"
+    }
 }
